@@ -1,6 +1,6 @@
 ## SMS Origination Example
 
-Sending an outbound SMS is an asynchronous process, which creates the challenge of *how do you know your message was successful?* Carriers provide Message Data Records in their customer portals, but this is not realtime. To solve this, *Delivery Records (DLR) were created.
+Sending an outbound SMS is an asynchronous process, which creates the challenge of *how do you know your message was successful?* Carriers provide Message Data Records in their customer portals, but this is not realtime. To solve this, *Delivery Records* (DLR) were created.
 In the R Squared Carrier Portal, or through the R Squared API you can set a callback URL to which the final disposition of an outbound SMS is sent.
 
 This app is a very basic quickstart for receiving and handling DLR for outgoing SMS messages from your phone numbers. Although it is designed for the R Squared Telecom SMS platform, this code should work for most SMS carriers that support SMS over API.
